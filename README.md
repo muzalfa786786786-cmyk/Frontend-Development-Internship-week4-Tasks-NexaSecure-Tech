@@ -8,7 +8,9 @@ The objective of this week was to improve project structure, implement form vali
 ------------------------------------------------------------
 
 ## 📂 Week 4 Folder Structure
+## 📂 Week 4 Folder Structure
 
+```
 Week4/
 │
 ├── Day22 – Project Setup & File Organization
@@ -18,6 +20,7 @@ Week4/
 ├── Day26 – Code Optimization & Testing
 ├── Day27 – Form Validation Implementation
 └── Day28 – Project Deployment & Documentation
+```
 
 ------------------------------------------------------------
 
@@ -117,6 +120,7 @@ The website features a clean and elegant user interface where users can explore 
 ---
 
 # 📁 Folder Structure
+```
 Ecommerce-Website
 │
 ├── index.html
@@ -129,6 +133,7 @@ Ecommerce-Website
 │
 ├── js
 │   └── script.js
+```
 
 2️⃣ Open the project folder  
 
