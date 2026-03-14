@@ -13,7 +13,26 @@ Tasks Completed:
 - Final project review
 
 The project was tested for responsiveness and functionality across different devices.
-
+# Week4
+│
+├── Day22
+├── Day23
+├── Day24
+├── Day25
+├── Day26
+├── Day27
+│
+└── Day28
+    │
+    ├── README.md
+    ├── live-link.txt
+    │
+    └── screenshots
+        ├── home.png
+        ├── products.png
+        ├── about.png
+        └── contact.png
+        
 # Internship Company: NexaSecure Tech
 Intern: Muzalfa Bibi
 
