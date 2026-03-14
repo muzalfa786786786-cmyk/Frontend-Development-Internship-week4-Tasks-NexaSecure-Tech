@@ -1,0 +1,211 @@
+Final Capstone Project Plan: Fashion E‑Commerce Website
+Overview
+This capstone project consolidates everything learned during the frontend development internship at NexaSecure Tech. You will build a fully responsive, multi‑page fashion e‑commerce website with a clean, modern UI. The site will include Home, About, Products, and Contact pages, product cards, and interactive elements – all hand‑coded with HTML, CSS, and JavaScript.
+
+1. Technology Stack
+Technology	Purpose
+HTML5	Semantic page structure
+CSS3	Styling, Flexbox/Grid, animations, responsive design
+JavaScript (ES6)	Interactivity (mobile menu, product filtering, simple cart, form validation)
+Font Awesome	Icons (shopping bag, user, social media)
+Google Fonts	Typography (e.g., Playfair Display for headings, Inter for body)
+Git & GitHub	Version control and repository hosting
+Netlify / Vercel	Deployment (optional but recommended)
+2. Project Structure (High‑Level)
+text
+fashion-ecommerce-capstone/
+│
+├── index.html              # Home page
+├── products.html           # Products listing page
+├── about.html              # About page
+├── contact.html            # Contact page
+├── product-details.html    # Optional: individual product view
+│
+├── css/
+│   └── style.css           # Main stylesheet (all styles in one file)
+│
+├── js/
+│   └── script.js           # Main JavaScript (menu, cart, filtering, validation)
+│
+├── images/                 # All product images, banners, icons
+│   ├── hero.jpg
+│   ├── product1.jpg
+│   └── ...
+│
+├── README.md               # Project description, live link, features
+└── favicon.ico             # Optional favicon
+For larger projects you could split CSS into multiple files, but for this capstone a single well‑organised CSS file is sufficient.
+
+3. Page Layout Plan
+Home Page (index.html)
+Header (shared across pages)
+
+Logo (e.g., “ÉLAN” or brand name)
+
+Navigation links: Home, Products, About, Contact
+
+Icons: Search, User, Shopping Bag (optional)
+
+Mobile hamburger menu
+
+Hero Section
+
+Large image / model shot
+
+Headline: “Elegance in Every Fold” or similar
+
+Call‑to‑action button: “Shop Now”
+
+Featured Collection (grid of 4 product cards)
+
+Each card: image, product name, price, “View” button
+
+Best Sellers (another grid, can reuse same styling)
+
+Testimonials (3‑column grid on desktop, stacked on mobile)
+
+Footer (shared across pages)
+
+Brand info, quick links, social icons, copyright
+
+Products Page (products.html)
+Page Title – “Our Collection”
+
+Product Grid (8+ products)
+
+Each card: image, title, price, rating (stars), “Add to Cart” button
+
+Optional: Simple filter buttons (All, Hijabs, Accessories) – can be added with JavaScript to hide/show categories
+
+Product Details Page (product-details.html) – optional but recommended
+Two‑column layout:
+
+Left: main product image + thumbnail gallery
+
+Right: product title, price, rating, stock status, colour/size options, quantity selector, “Add to Cart” and “Buy Now” buttons
+
+Description section
+
+Related products (mini grid)
+
+About Page (about.html)
+Two‑column layout:
+
+Left: brand story / image
+
+Right: heading + paragraphs
+
+Mission & Vision cards
+
+Founder / team section with photo and bio
+
+Contact Page (contact.html)
+Two‑column layout:
+
+Left: contact form (Name, Email, Message, Submit)
+
+Right: contact details (address, phone, email), social icons, embedded Google Map placeholder
+
+Form validation with JavaScript (required fields, email format)
+
+4. Folder Structure (Detailed)
+text
+fashion-ecommerce-capstone/
+│
+├── index.html
+├── products.html
+├── about.html
+├── contact.html
+├── product-details.html   (optional)
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── images/
+│   ├── hero-bg.jpg
+│   ├── logo.svg
+│   ├── products/
+│   │   ├── hijab1.jpg
+│   │   ├── hijab2.jpg
+│   │   └── ...
+│   ├── about-founder.jpg
+│   └── favicon.ico
+│
+├── assets/
+│   └── (if you have fonts or other static files)
+│
+├── README.md
+└── .gitignore
+5. Key Features to Implement
+Feature	Description
+Responsive Navigation	Hamburger menu collapses on mobile, smooth toggle with JavaScript
+Product Cards	Hover effects: scale image, lift card, shadow transition
+Simple Shopping Cart (Simulation)	Clicking “Add to Cart” shows a toast notification or updates a cart counter (no backend needed)
+Form Validation	Real‑time or on‑submit validation for contact form (name, email, message)
+Image Gallery (Product Details)	Click thumbnails to change main image
+Colour / Size Selectors	Interactive buttons that highlight when selected
+Smooth Transitions	All interactive elements have transition for polished feel
+Filter Products (Optional)	Buttons to filter product grid by category (using JavaScript)
+6. Development Steps (Suggested Timeline)
+Week 1 – Setup & HTML Structure
+
+Create folder structure and initial files
+
+Build HTML skeleton for all pages
+
+Add placeholder content
+
+Week 2 – CSS Styling
+
+Define colour palette, typography, global styles
+
+Style header, footer, and hero section
+
+Build product grids and cards (mobile‑first)
+
+Make all pages responsive
+
+Week 3 – JavaScript Interactivity
+
+Implement mobile menu toggle
+
+Add product filtering (if included)
+
+Build product details page interactions (gallery, selectors, quantity)
+
+Create simple cart simulation (toast notifications, counter)
+
+Validate contact form
+
+Week 4 – Polish & Deployment
+
+Cross‑browser testing, final tweaks
+
+Optimise images
+
+Write README
+
+Deploy to Netlify / Vercel
+
+Prepare LinkedIn post and final presentation
+
+7. Deployment Instructions (Netlify)
+Push code to a GitHub repository.
+
+Go to Netlify and import the repo.
+
+Leave build command blank, publish directory as / (or ./).
+
+Site is live! Copy the URL and add it to your README.
+
+8. Final Deliverables
+Complete source code (HTML, CSS, JS, images)
+
+Live website URL
+
+README with description, features, and live link
+
+LinkedIn post showcasing the project
