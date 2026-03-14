@@ -120,7 +120,7 @@ Special thanks to the mentors and team for providing guidance and learning oppor
 **Muzalfa Bibi**  
 Frontend Development Intern  
 
-GitHub: https://github.com/Muzalfa Bibi 
+GitHub: https://github.com/muzalfa786786786-cmyk 
 LinkedIn: https://www.linkedin.com/in/muzalfa-bibi-49ba203b2/
 
 ---
