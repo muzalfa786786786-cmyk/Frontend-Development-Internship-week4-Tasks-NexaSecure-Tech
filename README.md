@@ -88,27 +88,18 @@ The website features a clean and elegant user interface where users can explore 
 ---
 
 # 📁 Folder Structure
-jutti-heels/
-
+Ecommerce-Website
 │
 ├── index.html
-├── products.html
 ├── about.html
+├── products.html
 ├── contact.html
-├── product-details.html
 │
-├── css/
-│ └── style.css
+├── css
+│   └── style.css
 │
-├── js/
-│ └── script.js
-│
-├── images/
-│ ├── hero.jpg
-│ ├── product1.jpg
-│ └── other images
-│
-└── README.md
+├── js
+│   └── script.js
 
 2️⃣ Open the project folder  
 
