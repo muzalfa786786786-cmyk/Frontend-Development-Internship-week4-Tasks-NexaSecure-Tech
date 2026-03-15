@@ -6,8 +6,6 @@ This repository contains all tasks and projects completed during Week 4 of my 1-
 The objective of this week was to improve project structure, implement form validation, prepare projects for deployment, and publish the website online using modern hosting platforms.
 
 ------------------------------------------------------------
-
-## 📂 Week 4 Folder Structure
 ## 📂 Week 4 Folder Structure
 
 ```
